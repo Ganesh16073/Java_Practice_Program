@@ -20,12 +20,15 @@ public class EncryptDataToBinary
 class BinaryCode
 {
 	char c[];
+	int bcode,temp;
 	void setChar(char ch[])
 	{
 		c=ch;
 	}
 	int BinaryConvert()
 	{
-		
+		for(int i=0;i<c.length();i++)
+		{
+			temp=c
 	}
 }
