@@ -13,7 +13,7 @@ public class Pattern1
 	{
 	  if(j<=i)
 	  {
-	    System.out.print("* ");
+	    System.out.print("*");
 	  }
 	  else
 	  {

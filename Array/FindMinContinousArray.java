@@ -1,30 +1,4 @@
 import java.util.*;
-class Solution
-{
-	public static void FindMin(ArrayList<Integer> arr,int sub)
-	{
-		for(int i=0;i<arr.size();i++)
-		{
-			int min=arr.get(i);
-			int temp=i;
-			while(temp<sub && sub<=arr.size())
-			{
-				if(arr.get(temp)<min)
-				{
-					min=arr.get(temp);
-				}
-				System.out.print(arr.get(temp)+" ");
-				temp++;
-			}
-			if(sub<=arr.size())
-			{
-			System.out.println("= "+min);
-			sub++;
-			}
-		}
-		return;
-	}
-}	
 public class FindMinContinousArray
 {
 	public static void main(String args[])
@@ -54,7 +28,34 @@ public class FindMinContinousArray
 		}
 	}
 }
-		
+	
+class Solution
+{
+	public static void FindMin(ArrayList<Integer> arr,int sub)
+	{
+		for(int i=0;i<arr.size();i++)
+		{
+			int min=arr.get(i);
+			int temp=i;
+			while(temp<sub && sub<=arr.size())
+			{
+				if(arr.get(temp)<min)
+				{
+					min=arr.get(temp);
+				}
+				System.out.print(arr.get(temp)+" ");
+				temp++;
+			}
+			if(sub<=arr.size())
+			{
+			System.out.println("= "+min);
+			sub++;
+			}
+		}
+		return;
+	}
+}	
+	
 		
 				
 		

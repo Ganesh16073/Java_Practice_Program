@@ -25,7 +25,7 @@ class MaximumProductOfTwoNumberArray
 					product=a[i]*a[j];
 				}
 			}
-		}
+		} 
 		
 		System.out.println("The maximum Product of two Element in array is "+product+" the Number is "+n1+" & "+n2);
 	}

@@ -1,7 +1,7 @@
 import java.util.*;
 public class LeftPattern
 {
-	public static void main(String args[])
+	public static void main(String x[])
 	{
 		Scanner sc=new Scanner(System.in);
 		for(int i=1;i<=5;i++)

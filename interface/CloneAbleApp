@@ -1,0 +1,36 @@
+import java.util.*;
+public class CloneAbleApp
+{
+	public static void main(String args[])
+	{
+		Student s=new Student();
+		Scanner sc=new Scanner (System.in);
+		
+	}
+
+}
+class Student implements Cloneable
+{
+	String name;
+	int id,contact;
+	
+	public void setDetails(String name,int id,int contact)
+	{
+		this.name=name;
+		this.id=id;
+		this.contact=contact;
+	}
+	
+	public void getDetails()
+	{
+		System.out.println("Name is "+name);
+		System.out.println("Id is "+id);
+		System.out.println("Contact is "+contact);
+	}
+	
+	protected Object clone() throws CloneNotSupportedException
+	{
+		return super.clone();
+	}
+	
+}

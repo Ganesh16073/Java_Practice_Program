@@ -8,7 +8,7 @@ public class SortBinaryArray
 		System.out.println("Enter the Size of Array");
 		size=sc.nextInt();
 		a=new int[size];
-		System.out.println("Enter the Array Element");
+		System.out.println("Enter the Array Element only 0 an 1");
 		for(int i=0;i<a.length;i++)
 		{
 			a[i]=sc.nextInt();

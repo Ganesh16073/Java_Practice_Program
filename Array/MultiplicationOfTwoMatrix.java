@@ -28,7 +28,6 @@ public class MultiplicationOfTwoMatrix
 		
 		}
 		
-		
 		System.out.println("Enter The Array Element of 1st Matrix");
 		for(int i=0;i<a.length;i++)
 		{
@@ -58,8 +57,6 @@ public class MultiplicationOfTwoMatrix
 			System.out.println();
 		}
 		
-		
-		
 	}
 }
-		
+		 
