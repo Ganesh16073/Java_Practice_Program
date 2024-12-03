@@ -98,7 +98,7 @@ public class OperationOnString
 				System.out.println("Enter the Start Index and End Index to replace");
 				int s=sc.nextInt();
 				int e=sc.nextInt();
-				rs.replace(s,e,ars); // start index , end index, string(Only String)  :> StringBuffer not allowed in Function, if end value is greater than length then no error
+				rs.replace(s,e,ars); // start index , end index-1, string(Only String)  :> StringBuffer not allowed in Function, if end value is greater than length then no error
 				System.out.println("The Replaced String is ==>> "+rs);
 				break;
 				
