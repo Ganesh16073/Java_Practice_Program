@@ -16,11 +16,11 @@ public class SortEmployeeMain {
 		
 		Comparator<Employee> sortByName=( e1, e2)->
 		{
-			if(e1.getEname().compareTo(e2.getEname())>=1)
+			if(e1.getEname().compareTo(e2.getEname())>01)
 			{
 				return 1;
 			}
-			else if(e1.getEname().compareTo(e2.getEname())<=0)
+			else if(e1.getEname().compareTo(e2.getEname())<0)
 			{
 				return -1;
 			}
