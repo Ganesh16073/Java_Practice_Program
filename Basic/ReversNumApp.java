@@ -7,7 +7,7 @@ public class ReversNumApp
 		int no,rev=0,rem;
 		System.out.println("Enter Number to revers");
 		no=obj.nextInt();
-		for(int i=1;i<=no;i++)
+		while(no!=0)
 		{
 			rem=no%10;
 			rev=rev*10+rem;

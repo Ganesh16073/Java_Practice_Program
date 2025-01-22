@@ -379,7 +379,7 @@ public class OperationOnString
 				break;
 				
 			case 16:
-				System.out.println("Enter the String to  Removing the digit and  symbols in String " );
+				System.out.println("Enter the String to Removing the digit and  symbols in String " );
 				StringBuffer rds=new StringBuffer();
 				sc.nextLine();
 				rds.append(sc.nextLine());
