@@ -12,16 +12,16 @@ class Solution
     public static int length(String s)
     {
         HashSet<Character> set=new HashSet<>();
-        int left=0, maxLength=0;
-        for(int right=0;right<s.length();right++)
+        int i=0, maxLength=0;
+        for(int j=0;j<s.length();j++)
         {
-            while (set.contains(s.charAt(right))) {
-                System.out.println(s.charAt(right));
-                set.remove(s.charAt(left));
-                left++;
+            while (set.contains(s.charAt(j))) {
+                System.out.println(s.charAt(j));
+                set.remove(s.charAt(i));
+                i++;
             }
-            set.add(s.charAt(right));
-            maxLength=Math.max(maxLength, right-left+1);
+            set.add(s.charAt(j));
+            maxLength=Math.max(maxLength, j-i+1);
         }
 
         return maxLength;

@@ -31,7 +31,6 @@ class Solution
 		count++;
 		fun(n,start,end);
 		
-		
 	}
 }
 	
