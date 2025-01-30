@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ThreeSum {
+public class Thrvoid {
     public static void main(String[] args) {
         List<List<Integer>> list=new ArrayList<>();
         int []a=new int[]{1,4,6,7,9,3,4,5,55,66,77,2,33,23,13,33};
